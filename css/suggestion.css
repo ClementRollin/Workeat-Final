@@ -45,26 +45,62 @@ body{
     align-items: center;
 }
 
+.titreResults {
+    margin: 2vh 0 2vh 0;
+}
 
+.resultatsRecherche {
+    height: 70vh;
+    overflow-y: scroll;
+}
 
+.image {
+    width: 25vw;
+    height: 10vh;
+    background-image: url("../image/plats/asiatique1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10%;
+}
 
+.plat {
+    height: 10.5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+}
 
+.infos {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
+.note {
+    width: 8vw;
+    height: 3.5vh;
+    border-radius: 50%;
+    background-color: #BABABA;
+}
 
+.delais {
+    color: #BABABA;
+}
 
-
-
-
-
-
-
-
-
+.note h8 {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .positionPage {
     width: 25vw;
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 27px;
 }
 
 .rondVide {
